@@ -15,6 +15,11 @@
   transition: $transition;
   border-radius: $radius;
   border: 0;
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 6px rgba(shade($color-primary-xlight,20),.3);
+  }
 }
 
 .c-btn-reset {
@@ -88,6 +93,7 @@
 
 .c-btn--secondary {
   background-color: $color-secondary;
+  box-shadow: 0 10px 10px rgba($color-neutral,.1);
 
   &,
   &:hover,
@@ -99,7 +105,7 @@
 
   &:hover,
   &:focus {
-    background-color: $color-secondary-light;
+    background-color: tint($color-secondary,10);
   }
 
 }
@@ -119,6 +125,7 @@ $btn-ghost-border-width: 2px !default;
 .c-btn--ghost {
   border: $btn-ghost-border-width solid currentColor;
   padding: ($inuit-global-spacing-unit-small - $btn-ghost-border-width) ($inuit-global-spacing-unit - $btn-ghost-border-width);
+  box-shadow: none;
 
   &,
   &:hover,
@@ -155,7 +162,7 @@ $btn-ghost-border-width: 2px !default;
 
     &:hover,
     &:focus {
-      color: $color-secondary-dark;
+      color: tint($color-secondary,20);
     }
 
   }
@@ -172,8 +179,6 @@ $btn-ghost-border-width: 2px !default;
     &:focus {
       color: $color-secondary-xlight;
     }
-
-
   }
 
 }

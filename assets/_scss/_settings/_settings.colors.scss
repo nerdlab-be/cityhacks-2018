@@ -35,8 +35,8 @@ $maroon                     : #85144B;
 
 $white                      : #FFFFFF;
 $silver                     : #EDEDEE;
-$gray                       : #818288;
-$black                      : #4B4D56;
+$gray                       : shade(#818288,10);
+$black                      : #445066;
 
 
 
@@ -45,18 +45,18 @@ $black                      : #4B4D56;
 
 // Brand colors
 
-$color-neutral              : $gray;
-$color-neutral-xxlight      : tint($color-neutral,90);
-$color-neutral-xlight       : tint($color-neutral,60);
-$color-neutral-light        : $silver;
-$color-neutral-dark         : $black;
+$color-neutral                : $gray;
+$color-neutral-xxlight        : tint($color-neutral,90);
+$color-neutral-xlight         : tint($color-neutral,60);
+$color-neutral-light          : $silver;
+$color-neutral-dark           : $black;
 
-$color-primary            : #96A4BE;
-$color-primary-xlight     : tint($color-primary,80);
-$color-primary-light      : #A5C4E8;
-$color-primary-dark       : #556480;
+$color-primary                : shade(#96A4BE,10);
+$color-primary-xlight         : tint($color-primary,80);
+$color-primary-light          : #A5C4E8;
+$color-primary-dark           : #556480;
 
-$color-secondary              : #8CC414;
+$color-secondary              : shade(#8CC414,5);
 $color-secondary-xlight       : #E7E197;
 $color-secondary-light        : #BCD17A;
 $color-secondary-dark         : shade($color-secondary,20);

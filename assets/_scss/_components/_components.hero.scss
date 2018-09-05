@@ -44,10 +44,6 @@
     @include mq(large) {
       padding-bottom: (10/24) * 100%;
     }
-
-    @include mq(huge) {
-      padding-bottom: (10/30) * 100%;
-    }
   }
 
   .c-hero__body {

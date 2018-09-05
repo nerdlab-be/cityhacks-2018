@@ -17,7 +17,7 @@
 
   @include mq($until: medium) {
     position: fixed;
-    z-index: $z-index-alpha;
+    z-index: $z-index-beta;
     overflow: auto;
     background-color: shade($color-primary,50);
     top: 0;
@@ -70,7 +70,7 @@
   position: absolute;
   top: $unit/1.5;
   right: $unit/1.5;
-  z-index: $z-index-beta;
+  z-index: $z-index-gamma;
   border: 0;
   color: $color-primary;
   background-color: transparent;
