@@ -23,11 +23,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html',''| prepend: site.url }}">
 
   {% comment %}
-  RSS feed
-  {% endcomment %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: "/" | prepend: site.url }}">
-
-  {% comment %}
   Facebook OG meta tags (https://developers.facebook.com/docs/sharing/best-practices#tags)
   {% endcomment %}
   <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ '/assets/img/jpg/og-image.jpg' | prepend: site.url }}{% endif %}">
