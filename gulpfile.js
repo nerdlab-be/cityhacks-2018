@@ -246,7 +246,7 @@ gulp.task(
   gulp.series(
     "install",
     clean,
-    gulp.parallel(cssProduction, cssProduction,icons),
+    gulp.parallel(cssProduction, scriptsProduction,icons),
     jekyllBuild
   )
 );

@@ -8538,8 +8538,3 @@ function toggleNav() {
 }
 
 navButton.on('click', toggleNav);
-
-// if html.hasClass('has-nav') {
-//   navLink.on('click', toggleNav);
-// }
-
