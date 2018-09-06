@@ -1846,7 +1846,8 @@ table {
 
 .c-partner {
   display: block;
-  max-width: 100px;
+  width: 100%;
+  max-width: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2140,6 +2141,20 @@ table {
   }
 }
 
+.c-para {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 56.25em) {
+  .c-para {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
 .c-para-small {
   font-size: 14px;
   font-size: 0.875rem;
@@ -2157,6 +2172,7 @@ table {
 }
 
 .c-small {
+  padding-top: 3px;
   display: block;
   color: #556480;
 }
@@ -2266,7 +2282,18 @@ table {
 }
 
 .c-list-agenda {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
   font-weight: 500;
+}
+
+@media (min-width: 56.25em) {
+  .c-list-agenda {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
 
 .c-list-agenda__item {
@@ -3053,6 +3080,7 @@ table {
   display: block;
   overflow: hidden;
   padding-bottom: 75%;
+  background-color: #74757a;
 }
 
 .c-hero__image > img {
@@ -3064,17 +3092,7 @@ table {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-.c-hero__image::after {
-  content: '';
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(116, 117, 122, 0.8);
+  opacity: .2;
 }
 
 @media (min-width: 37.5em) {
@@ -3110,35 +3128,23 @@ table {
   margin-bottom: 0;
 }
 
+/* ==================================
+   #IMAGE
+   ================================== */
 .c-image {
-  border: 4px solid #78a711;
-  border-radius: 4px;
+  position: relative;
+  display: block;
 }
 
-.c-image--left {
-  -webkit-transform: translateX(-36px);
-      -ms-transform: translateX(-36px);
-          transform: translateX(-36px);
-}
-
-.c-image--bottom-left {
-  -webkit-transform: translateX(36px);
-      -ms-transform: translateX(36px);
-          transform: translateX(36px);
-}
-
-@media (min-width: 56.25em) {
-  .c-image--bottom-left {
-    -webkit-transform: translateX(-24px);
-        -ms-transform: translateX(-24px);
-            transform: translateX(-24px);
-  }
-}
-
-.c-image--bottom-right {
-  -webkit-transform: translateX(-36px);
-      -ms-transform: translateX(-36px);
-          transform: translateX(-36px);
+.c-image::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(135, 148, 171, 0.4);
 }
 
 /* ==================================

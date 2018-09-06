@@ -1,22 +1,19 @@
+/* ==================================
+   #IMAGE
+   ================================== */
+
 .c-image {
-  border: 4px solid shade($color-secondary,10);
-  border-radius: $radius;
-}
+  position: relative;
+  display: block;
 
-.c-image--left {
-  transform: translateX(-#{$unit + $unit-small});
-}
-
-.c-image--bottom-left {
-  // margin-top: $unit-small;
-  // margin-bottom: $unit;
-  transform: translateX(#{$unit + $unit-small});
-
-  @include mq(medium) {
-    transform: translateX(-#{$unit});
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color-primary,.4);
   }
-}
-
-.c-image--bottom-right {
-  transform: translateX(-#{$unit + $unit-small});
 }

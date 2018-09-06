@@ -12,6 +12,7 @@
     display: block;
     overflow: hidden;
     padding-bottom: (3/4) * 100%;
+    background-color: $color-neutral;
 
     > img {
       position: absolute;
@@ -20,17 +21,7 @@
       min-width: 100%;
       max-width: none;
       transform: translate(-50%, -50%);
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba($color-neutral,.8);
+      opacity: .2;
     }
 
     @include mq(small) {
@@ -57,8 +48,4 @@
     & > .o-wrapper > *:last-child {
       margin-bottom: 0;
     }
-
-  //   // @include mq(large) {
-  //   //   padding: $inuit-global-spacing-unit;
-  //   // }
   }

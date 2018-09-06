@@ -73,6 +73,14 @@
   }
 }
 
+.c-para {
+  @include font-size($tiny,1.5);
+
+  @include mq(medium) {
+    @include font-size($h6);
+  }
+}
+
 .c-para-small {
   @include font-size($tiny,1.5);
   font-weight: $medium;
@@ -85,6 +93,7 @@
 
 
 .c-small {
+  padding-top: $unit-tiny/2;
   display: block;
   color: $color-primary-dark;
 
@@ -181,7 +190,12 @@
   }
 
 .c-list-agenda {
+  @include font-size($tiny);
   font-weight: $medium;
+
+  @include mq(medium) {
+    @include font-size($h6);
+  }
 }
 
   .c-list-agenda__item {
