@@ -10,6 +10,10 @@
   height: 100%;
 }
 
+.c-card--neutral {
+  background-color: rgba($color-neutral-light,.5);
+}
+
 .c-card--link {
   &:hover,
   &:focus,

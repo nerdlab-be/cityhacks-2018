@@ -60,10 +60,18 @@ layout: default
   <div class="o-wrapper o-wrapper--large">
     <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.program.title }}</h2>
     <div class="o-layout o-layout--small">
+      <div class="o-layout__item">
+        <article class="c-card c-card--neutral">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.dataTitle }} <span class="c-date">{{ page.program.dataDate }}</span></h3>
+            <p class="c-para">{{ page.program.dataPara }}</p>
+          </div>
+        </article>
+      </div>
       <div class="o-layout__item u-1/2@medium">
         <article class="c-card">
           <div class="o-box">
-            <h3 class="c-subtitle c-subtitle--border">{{ page.program.friday }}</h3>
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.friday }} <span class="c-date">{{ page.program.fridayDate }}</span></h3>
             <ul class="o-list-bare c-list-agenda">
               {% for item in page.program.scheduleFriday %}
               <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
@@ -75,7 +83,7 @@ layout: default
       <div class="o-layout__item u-1/2@medium">
         <article class="c-card">
           <div class="o-box">
-            <h3 class="c-subtitle c-subtitle--border">{{ page.program.saturday }}</h3>
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.saturday }} <span class="c-date">{{ page.program.saturdayDate }}</span></h3>
             <ul class="o-list-bare c-list-agenda">
               {% for item in page.program.scheduleSaturday %}
               <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>

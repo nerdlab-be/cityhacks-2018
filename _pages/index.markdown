@@ -29,7 +29,11 @@ opdracht:
       alt: "Cityhacks 2017"
 program:
   title: "Op het programma:"
+  dataTitle: "Data Dive"
+  dataDate: "24/10"
+  dataPara: "Op woensdag 24 oktober duiken we al eens in de beschikbare data en geven we de volledige uitleg hoe we het gaan aanpakken. Afspraak om 19u in de Republiek."
   friday: "Vrijdag"
+  fridayDate: "09/10"
   scheduleFriday:
     - hour: "8u00"
       para: "Deuren open voor koffie"
@@ -52,6 +56,7 @@ program:
     - hour: "20u00"
       para: "Blijven gaan voor wie goesting heeft"
   saturday: "Zaterdag"
+  saturdayDate: "10/10"
   scheduleSaturday:
     - hour: "8u00"
       para: "Ontbijt"

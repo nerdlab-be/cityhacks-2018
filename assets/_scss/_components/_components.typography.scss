@@ -75,6 +75,7 @@
 
 .c-para {
   @include font-size($tiny,1.5);
+  max-width: 45em;
 
   @include mq(medium) {
     @include font-size($h6);
@@ -246,6 +247,10 @@
       }
     }
   }
+
+.c-date {
+  font-weight: $regular;
+}
 
 // Badge > Small text with background color
 // ---

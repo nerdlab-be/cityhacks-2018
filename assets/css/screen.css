@@ -2145,6 +2145,7 @@ table {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.5;
+  max-width: 45em;
 }
 
 @media (min-width: 56.25em) {
@@ -2351,6 +2352,10 @@ table {
   .c-list-big__item + .c-list-big__item {
     margin-top: 12px;
   }
+}
+
+.c-date {
+  font-weight: 400;
 }
 
 .c-badge {
@@ -3016,6 +3021,10 @@ table {
   height: 100%;
 }
 
+.c-card--neutral {
+  background-color: rgba(237, 237, 238, 0.5);
+}
+
 .c-card--link:hover, .c-card--link:focus, .c-card--link:focus-within {
   -webkit-box-shadow: 0 10px 10px rgba(116, 117, 122, 0.1), 0 0 0 2px rgba(116, 117, 122, 0.3);
           box-shadow: 0 10px 10px rgba(116, 117, 122, 0.1), 0 0 0 2px rgba(116, 117, 122, 0.3);
@@ -3449,6 +3458,29 @@ table {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.5;
+}
+
+.s-editor a {
+  -webkit-transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.s-editor a, .s-editor a:visited {
+  color: #7eb012;
+}
+
+.s-editor a:hover, .s-editor a:focus {
+  color: #658d0e;
+}
+
+.s-editor a:focus {
+  background-color: #e7eaee;
+  outline: 4px solid #e7eaee;
+}
+
+.s-theme-primary-xlight .s-editor a:focus {
+  background-color: #f3f5f7;
+  outline: 4px solid #f3f5f7;
 }
 
 @media (min-width: 56.25em) {
