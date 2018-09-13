@@ -67,7 +67,7 @@ program:
     - hour: "11u30"
       para: "Prijzen en bubbels"
 coaches:
-  title: "10 Coaches"
+  title: "De coaches"
   link: "Coach worden?"
   linkHref: "#!"
 subscribe:
