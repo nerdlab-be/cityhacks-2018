@@ -72,7 +72,7 @@ coaches:
   linkHref: "#!"
 subscribe:
   title: "Inschrijven"
-  para: "Inschrijven kan via Howest of KU Leuven campus Brugge of Vives. Of als je inschrijft als team van 6."
+  para: "Inschrijven kan via Howest of KU Leuven campus Brugge of Vives. Of als je inschrijft als team van zes."
   link: "Inschrijven kan vanaf 20 september"
   linkHref: "#!"
 ---
