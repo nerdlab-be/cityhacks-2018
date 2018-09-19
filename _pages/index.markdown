@@ -68,12 +68,12 @@ program:
       para: "Prijzen en bubbels"
 coaches:
   title: "De coaches"
-  link: "Coach worden?"
-  linkHref: "#!"
+  link: "Coach worden? Mail Julie"
+  linkHref: "mailto:julie.naesens@ocwest.be"
 subscribe:
   title: "Inschrijven"
-  para: "Inschrijven kan via Howest of KU Leuven campus Brugge of Vives. Of als je inschrijft als team van zes."
-  link: "Inschrijven kan vanaf 20 september"
-  linkHref: "#!"
+  para: "Doe mee aan Cityhacks met een team van maximum zes. Wie studeert bij Howest, Vives of KULeuven campus Brugge kreeg misschien al wat motivatie via de docenten."
+  link: "Schrijf je Team nu in!"
+  linkHref: https://docs.google.com/forms/d/e/1FAIpQLSfIbS6qJFF2S9uh6V6lWHMZTXPOklnx0C1Qwi_qmSJMWJ_h6g/viewform?usp=sf_link"
 ---
 
