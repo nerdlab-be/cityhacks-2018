@@ -8,7 +8,6 @@
   vertical-align: middle;
   font: inherit;
   font-weight: $medium;
-  white-space: nowrap;
   text-align: center;
   margin: 0;
   padding: $unit-small $unit;
@@ -19,6 +18,10 @@
   &:focus {
     outline: 0;
     box-shadow: 0 0 0 6px rgba(shade($color-primary-xlight,20),.3);
+  }
+
+  @include mq(small) {
+    white-space: nowrap;
   }
 }
 

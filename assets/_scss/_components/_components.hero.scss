@@ -11,7 +11,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    padding-bottom: (3/4) * 100%;
+    padding-bottom: 100%;
     background-color: $color-neutral;
 
     > img {
@@ -22,6 +22,10 @@
       max-width: none;
       transform: translate(-50%, -50%);
       opacity: .2;
+    }
+
+    @include mq(480px) {
+      padding-bottom: (3/4) * 100%;
     }
 
     @include mq(small) {

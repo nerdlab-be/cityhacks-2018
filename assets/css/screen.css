@@ -1978,6 +1978,8 @@ table {
   stroke: currentColor;
   stroke-width: 6px;
   stroke-linecap: round;
+  width: 44px;
+  height: 32px;
 }
 
 .c-hamburger__line {
@@ -2401,7 +2403,6 @@ table {
   vertical-align: middle;
   font: inherit;
   font-weight: 500;
-  white-space: nowrap;
   text-align: center;
   margin: 0;
   padding: 12px 24px;
@@ -2415,6 +2416,12 @@ table {
   outline: 0;
   -webkit-box-shadow: 0 0 0 6px rgba(185, 187, 190, 0.3);
           box-shadow: 0 0 0 6px rgba(185, 187, 190, 0.3);
+}
+
+@media (min-width: 37.5em) {
+  .c-btn {
+    white-space: nowrap;
+  }
 }
 
 .c-btn-reset {
@@ -3088,7 +3095,7 @@ table {
   position: relative;
   display: block;
   overflow: hidden;
-  padding-bottom: 75%;
+  padding-bottom: 100%;
   background-color: #74757a;
 }
 
@@ -3102,6 +3109,12 @@ table {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   opacity: .2;
+}
+
+@media (min-width: 30em) {
+  .c-hero__image {
+    padding-bottom: 75%;
+  }
 }
 
 @media (min-width: 37.5em) {

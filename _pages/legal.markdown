@@ -4,7 +4,7 @@ layout: template-legal
 permalink: "/kleine-lettertjes/"
 ---
 
-#Kleine Lettertjes
+# Kleine Lettertjes
 
 ## Analytics
 Op deze website is Google Analytics geïmplementeerd, we bekijken er hoe vaak en wanneer deze website wordt bezocht. We tracken niemand individueel en volgen je niet verder dan deze website. Google zelf gebruikt die info wel om over alle websites heen patronen te spotten.
