@@ -43,3 +43,12 @@
   image: jpg/fre.jpg
   link: "https://www.duo.be/"
 
+- title: Eveline Vlassenroot
+  body: Deze onderzoekster is bij de UGent bezig met linked Open data en is ook niet vies van een hackathon. Ze overleefde tot 2x toe de Open Summer of code van Open Knowledge Belgiukm
+  image: jpg/eveline.jpg
+  link: "https://2018.summerofcode.be/"
+
+- title: Pieter Vander Vennet
+  body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
+  image: jpg/pieter.jpg
+  link: "https://github.com/pietervdvn"
