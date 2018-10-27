@@ -67,9 +67,9 @@ coaches:
   link: "Coach worden? Mail Julie"
   linkHref: "mailto:julie.naesens@ocwest.be"
 subscribe:
-  title: "Inschrijven"
-  para: "Doe mee aan Cityhacks met een team van maximum zes. Wie studeert bij Howest, Vives of KULeuven campus Brugge kreeg misschien al wat motivatie via de docenten."
-  link: "Schrijf je Team nu in!"
-  linkHref: https://docs.google.com/forms/d/e/1FAIpQLSfIbS6qJFF2S9uh6V6lWHMZTXPOklnx0C1Qwi_qmSJMWJ_h6g/viewform?usp=sf_link"
+  title: "De Pitches"
+  para: "Geïnteresseerd in de innovatieve ideeën waar de studenten toe gekomen zijn? Wees dan zeker welkom in de Blauwe Zaal van Cinema Lumière!"
+  link: "Komt dat zien!"
+  linkHref: "https://www.facebook.com/events/1003970199806881/"
 ---
 
