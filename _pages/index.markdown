@@ -67,7 +67,7 @@ coaches:
   link: "Coach worden? Mail Julie"
   linkHref: "mailto:julie.naesens@ocwest.be"
 subscribe:
-  title: "De Pitches"
+  title: "De pitches"
   para: "Geïnteresseerd in de innovatieve ideeën waar de studenten toe gekomen zijn? Wees dan zeker welkom in de Blauwe Zaal van Cinema Lumière!"
   link: "Komt dat zien!"
   linkHref: "https://www.facebook.com/events/1003970199806881/"
