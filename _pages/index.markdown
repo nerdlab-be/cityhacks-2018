@@ -67,9 +67,9 @@ coaches:
   link: "Coach worden? Mail Julie"
   linkHref: "mailto:julie.naesens@ocwest.be"
 subscribe:
-  title: "De pitches"
-  para: "Geïnteresseerd in de innovatieve ideeën waar de studenten toe gekomen zijn? Wees dan zeker welkom in de Blauwe Zaal van Cinema Lumière!"
-  link: "Komt dat zien!"
-  linkHref: "https://www.facebook.com/events/1003970199806881/"
+  title: "De resultaten"
+  para: "Na een vruchtvolle hackathon, waar 11 teams het beste van zichzelf gaven blijft deze buit over: 11 presentaties en demo's om u tegen te zeggen."
+  link: "Bekijk de presentaties"
+  linkHref: "https://drive.google.com/drive/folders/1eyqkxVAa1edd2_GTumkaOsbrHT2YTzwI?usp=sharing"
 ---
 
